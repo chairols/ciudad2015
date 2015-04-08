@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-top: 0px;
+	background-image: url(/assets/imagenes/fondociudad.jpg);
+	background-color: #DCDCDC;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
+.fondomenu {
+	background-image: url(/assets/imagenes/fondomenu.png);
+	width: 168px;
+	height: 25px;
+	background-repeat: no-repeat;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #FFFFFF;
+	margin-left: 5px;
+	padding-left: 10px;
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 15px;
+	font-style: italic;
+}
+.bienvenido {
+	color: #00ADEF;
+	font-family: Tahoma;
+	font-size: 17px;
+}
+.titulotabla {
+	background-color: #00ADEF;
+	color: #FFFFFF;
+	font-family: Tahoma;
+	font-size: 15px;
+	width: 0px;
+	height: 25px;
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-bottom: 0px;
+}
+.interiortabla {
+	height: 25px;
+	/* [disabled]padding-left: 10px; */
+	/* [disabled]padding-bottom: 0px; */
+	color: #000000;
+	font-family: Tahoma;
+	font-size: 13px;
+	background-color: #F2F2F2;
+	/* [disabled]padding-top: 3px; */
+}
+a:link {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #00CCFF;
+}
+a:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.marco1 {
+	width: 166px;
+	height: 14px;
+	background-image: url(/assets/imagenes/marco1.jpg);
+	background-repeat: no-repeat;
+}
+.marco2 {
+	width: 9px;
+	background-image: url(/assets/imagenes/marco2.jpg);
+	background-repeat: repeat-y;
+	height: 113px;
+}
+.marco3 {
+	width: 9px;
+	background-image: url(/assets/imagenes/marco3.jpg);
+	background-repeat: repeat-y;
+	height: 113px;
+}
+.marco4 {
+	width: 166px;
+	height: 40px;
+	background-image: url(/assets/imagenes/marco4.jpg);
+	background-repeat: no-repeat;
+}
+.botonnoaprobar {
+	width: 80px;
+	height: 25px;
+	background-color: #03529D;
+	color: #FFFFFF;
+	margin-bottom: 5px;
+	font-family: Tahoma;
+	font-size: 13px;
+}
+

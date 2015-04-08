@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-top: 0px;
+	background-image: url(/assets/imagenes/fondociudad.jpg);
+	background-color: #DCDCDC;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
+.fondomenu {
+	background-image: url(/assets/imagenes/fondomenu.png);
+	width: 168px;
+	height: 25px;
+	background-repeat: no-repeat;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-bottom: 5px;
+	color: #FFFFFF;
+	margin-left: 5px;
+	padding-left: 10px;
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 15px;
+	font-style: italic;
+}
+.bienvenido {
+	color: #34499E;
+	font-family: Tahoma;
+	font-size: 17px;
+	text-shadow: 1px 1px #CCCCCC;
+}
+.titulotabla {
+	background-color: #34499E;
+	color: #FFFFFF;
+	font-family: Tahoma;
+	font-size: 15px;
+	width: 0px;
+	height: 25px;
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-bottom: 0px;
+}
+.interiortabla {
+	height: 25px;
+	/* [disabled]padding-left: 10px; */
+	/* [disabled]padding-bottom: 0px; */
+	color: #000000;
+	font-family: Tahoma;
+	font-size: 13px;
+	background-color: #F2F2F2;
+	/* [disabled]padding-top: 3px; */
+}
+a:link {
+	text-decoration: none;
+	color: #000;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+	color: #34499E;
+}
+a:active {
+	text-decoration: none;
+	color: #000;
+}
+.campoform {
+	color: #999999;
+	border-spacing: 1px 0px;
+	border: 1px solid #CCCCCC;
+	border-radius: 10px;
+	width: 250px;
+	height: 25px;
+	padding-left: 10px;
+}
+.enviar {
+	color: #FFFFFF;
+	font-family: Tahoma;
+	font-size: 13px;
+	background-color: #34499E;
+	width: 80px;
+	height: 30px;
+	border-spacing: 0px 0px;
+	border-top: thin none #03529D;
+	border-bottom: thin none #03529D;
+	border-right: thin none #03529D;
+	border-left: thin none #03529D;
+}
+.seleccionar {
+	color: #000;
+	font-family: Tahoma;
+	font-size: 15px;
+	padding-bottom: 5px;
+	padding-top: 0px;
+	padding-left: 5px;
+}
+.marco1 {
+	width: 166px;
+	height: 14px;
+	background-image: url(/assets/imagenes/marco1.jpg);
+	background-repeat: no-repeat;
+}
+.marco2 {
+	width: 12px;
+	background-image: url(/assets/imagenes/marco2.jpg);
+	background-repeat: repeat-y;
+	height: 113px;
+}
+.marco3 {
+	width: 12px;
+	background-image: url(/assets/imagenes/marco3.jpg);
+	background-repeat: repeat-y;
+	height: 113px;
+}
+.marco4 {
+	width: 166px;
+	height: 40px;
+	background-image: url(/assets/imagenes/marco4.jpg);
+	background-repeat: no-repeat;
+}
+.botonnoaprobar {
+	width: 90px;
+	height: 30px;
+	background-color: #03529D;
+	color: #FFFFFF;
+	margin-bottom: 5px;
+	font-family: Tahoma;
+	font-size: 13px;
+	border-radius: 10px;
+	border-color: #03529D;
+	border-width: thin;
+}
+.fondo1 {
+	background-image: url(/assets/imagenes/fondo1.jpg);
+	width: 950px;
+	height: 550px;
+	background-repeat: no-repeat;
+}
+.fondo2 {
+	background-image: url(/assets/imagenes/fondo2.jpg);
+	width: 950px;
+	height: 550px;
+	background-repeat: no-repeat;
+}
+.fondo3 {
+	background-image: url(/assets/imagenes/fondo3.jpg);
+	width: 950px;
+	height: 500px;
+	background-repeat: no-repeat;
+}
+.fondo4 {
+	background-image: url(/assets/imagenes/fondo4.jpg);
+	width: 950px;
+	height: 550px;
+	background-repeat: no-repeat;
+}
+.fondo5 {
+	background-image: url(/assets/imagenes/fondo5.jpg);
+	width: 950px;
+	height: 550px;
+	background-repeat: no-repeat;
+}
+.fondo6 {
+	background-image: url(/assets/imagenes/fondo6.jpg);
+	width: 950px;
+	background-repeat: no-repeat;
+	height: 550px;
+}
+.fondo7 {
+	background-image: url(/assets/imagenes/fondo6.jpg);
+	width: 950px;
+	height: 550px;
+	background-repeat: no-repeat;
+}
+.fondo8 {
+	background-image: url(/assets/imagenes/fondo8.jpg);
+	width: 950px;
+	height: 550px;
+	background-repeat: no-repeat;
+}
+.fondoblanco {
+	background-image: url(/assets/imagenes/fondoblanco50.png);
+	background-repeat: repeat;
+	height: 500px;
+}
+.interiortabla2 {
+	font-family: Tahoma;
+	font-size: 13px;
+	color: #000000;
+}
+.interiortabla3 {
+	font-family: Tahoma;
+	font-size: 15px;
+}
+.textorojochico {
+	font-family: Tahoma;
+	font-size: 13px;
+	color: #CC0000;
+	font-weight: bold;
+}
