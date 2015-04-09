@@ -76,7 +76,7 @@ class Fotos_model extends CI_Model {
     
     public function get_fotos_aprobadas_limit($limit) {
         $limit -=1;
-        $limit *= 51;
+        $limit *= 52;
         $query = $this->db->query("SELECT *
                                     FROM
                                         fotos
@@ -84,7 +84,7 @@ class Fotos_model extends CI_Model {
                                         aprobado = 1
                                     ORDER BY
                                         idfoto DESC
-                                    LIMIT $limit, 51");
+                                    LIMIT $limit, 52");
         return $query->result_array();
     }
     

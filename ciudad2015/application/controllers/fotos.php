@@ -453,7 +453,7 @@ Su foto con el título:'.$this->input->post('nombre').' ID ('.$id.') ha sido sub
         
         $data['session'] = $session;
         $fotos_aprobadas = $this->fotos_model->get_fotos_aprobadas();
-        $data['paginacion'] = $this->h_paginacion->paginar($pagina, 51, count($fotos_aprobadas), '/fotos/aprobadas/');
+        $data['paginacion'] = $this->h_paginacion->paginar($pagina, 52, count($fotos_aprobadas), '/fotos/aprobadas/');
         $data['pagina'] = $pagina;
         
         $data['aprobadas'] = $this->fotos_model->get_fotos_aprobadas_limit($pagina);
