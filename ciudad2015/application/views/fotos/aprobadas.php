@@ -114,7 +114,9 @@
                                                     </div>
                                                     <div class="project_descr center">
                                                         <h4>
-                                                            <input class="botonaprobar" type="submit" name="submit" id="submit" value="NO APROBAR">
+                                                            <a href="/fotos/desaprueba/<?=$aprobada['idfoto']?>/2/<?=$pagina?>/">
+                                                                <input class="botonaprobar" type="submit" name="submit" id="submit" value="NO APROBAR">
+                                                            </a>
                                                             <br>
                                                         </h4>
                                                     </div>

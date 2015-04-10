@@ -59,7 +59,7 @@
 					
 					<!-- TOP LINE -->
 					<div class="top_line clearfix">
-						<div class="pull-right top_phone"><a href="/login/">Bienvenido <?=$session['nombre']?> <?=$session['apellido']?></a><span class="color_white"><a href="/registro/"></a></span></div>
+						<div class="pull-right top_phone"><a href="/login/">Bienvenido <?=$session['nombre']?> <?=$session['apellido']?></a><span class="color_white"><a href="/usuarios/registrar/"></a></span></div>
 						
 						
 				  </div><!-- //TOP LINE -->
