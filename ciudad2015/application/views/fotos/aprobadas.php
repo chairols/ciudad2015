@@ -69,7 +69,7 @@
 						
 						<!-- LOGO -->
 						<div class="logo">
-							<a href="index.html" alt="">antarctic</a>
+							<a href="/home/" alt="">antarctic</a>
 						</div><!-- LOGO -->
 						
 						<!-- RESPONSIVE BUTTON MENU -->
@@ -81,10 +81,10 @@
 						
 						<div class="navbar-collapse collapse">
 							<ul class="nav navbar-nav right">
-								<li ><a href="/no-aprobadas/" title="">Fotos No Aprobadas</a></li>
-								<li class="first active"><a href="/aprobadas/" title="">Fotos Aprobadas</a></li>
-               				  <li><a href="/actividad-jurados/" title="">Actividad Jurado</a></li>
-                              <li><a href="/logout/" title="">Salir</a></li>
+								<li ><a href="/fotos/no-aprobadas/1" title="">Fotos No Aprobadas</a></li>
+								<li class="first active"><a href="/fotos/aprobadas/1" title="">Fotos Aprobadas</a></li>
+               				  <li><a href="/usuarios/jurados/" title="">Actividad Jurado</a></li>
+                              <li><a href="/usuarios/logout/" title="">Salir</a></li>
                               
 
 						  </ul>

@@ -1,163 +1,168 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Administracion | Concuso Gente de mi ciudad</title>
-<link href="/assets/css/admin.css" rel="stylesheet" type="text/css">
-<script type="text/javascript">
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-</script>
+	
+	<meta charset="utf-8">
+	<title>XVI Concurso fotográfico | GENTE DE MI CIUDAD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+        <link rel="shortcut icon" href="/assets/images/favicon.ico">
+    
+	<!-- CSS STYLES -->
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/flexslider.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/animate.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/colors/" rel="stylesheet" type="text/css" id="colors" />
+    
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'>
+    
+	<!-- Scripts -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if IE]><html class="ie" lang="en"> <![endif]-->
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+        <script src="/assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="/assets/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+        <script src="/assets/js/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="/assets/js/jquery.isotope.min.js" type="text/javascript"></script>
+        <script src="/assets/js/sorting.js" type="text/javascript"></script>
+        <script src="/assets/js/jquery.twitter.js" type="text/javascript"></script>
+        <script src="/assets/js/superfish.min.js" type="text/javascript"></script>
+        <script src="/assets/js/jquery.flexslider-min.js" type="text/javascript"></script>
+        <script src="/assets/js/animate.js" type="text/javascript"></script>
+        <script src="/assets/js/myscript.js" type="text/javascript"></script>
+	
 </head>
+<body>
 
-<body onLoad="MM_preloadImages('/assets/imagenes/aprobadas2.jpg','/assets/imagenes/jurados2.jpg','/assets/imagenes/preseleccionadas2.jpg','/assets/imagenes/ganadoras2.jpg','/assets/imagenes/buscarfoto2.jpg','/assets/imagenes/logout2.jpg','/assets/imagenes/fotosnoaprobadas2.jpg')">
-<table width="950" border="0" align="center" cellpadding="0" cellspacing="0">
-  <tr>
-    <td><img src="/assets/imagenes/header.jpg" width="950" height="157"  alt=""/></td>
-  </tr>
-  <tr>
-    <td bgcolor="#FFFFFF">&nbsp;</td>
-  </tr>
-  <tr>
-    <td bgcolor="#FFFFFF"><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
-      <tr>
-        <td>&nbsp;</td>
-        <td><div align="right"><span class="bienvenido">Bienvenido <?=$session['nombre']?> <?=$session['apellido']?></span></div></td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-        <td><div align="right" class="bienvenido"></div></td>
-      </tr>
-      <tr>
-        <td><a href="/fotos/aprobadas/1" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','/assets/imagenes/aprobadas2.jpg',1)"><img src="/assets/imagenes/aprobadas1.jpg" alt="" width="208" height="43" id="Image5" border="0"></a></td>
-        <td rowspan="11"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-          <tr>
-            <td><table width="100%" border="0" cellspacing="3" cellpadding="0">
-              <tr class="titulotabla">
-                <td width="45%" class="titulotabla">Nombre y Apellido</td>
-                <td width="28%" class="titulotabla">Fotos votadas</td>
-                <td width="27%" class="titulotabla">Fotos pendientes</td>
-                </tr>
-              <?php foreach($jurados as $jurado) { ?>
-              <tr class="interiortabla">
-                <td class="interiortabla"><?=$jurado['nombre'].' '.$jurado['apellido']?></td>
-                <td class="interiortabla"><?=count($jurado['votadas'])?></td>
-                <td class="interiortabla"><?=(count($jurado['aprobadas'])-count($jurado['votadas']))?></td>
-                </tr>
-              <?php } ?>
-              </table></td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-        </table></td>
-      </tr>
-      <tr>
-        <td><a href="/fotos/no-aprobadas/1" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image97','','/assets/imagenes/fotosnoaprobadas2.jpg',1)"><img src="/assets/imagenes/fotosnoaprobadas1.jpg" alt="" width="208" height="43" id="Image97"></a></td>
-      </tr>
-      <tr>
-        <td><a href="/usuarios/jurados/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','/assets/imagenes/jurados2.jpg',1)"><img src="/assets/imagenes/jurados1.jpg" alt="" width="208" height="43" id="Image7"border="0"></a></td>
-      </tr>
-      <tr>
-        <td><a href="/fotos/preseleccionadas/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','/assets/imagenes/preseleccionadas2.jpg',1)"><img src="/assets/imagenes/preseleccionadas1.jpg" alt="" width="208" height="43" id="Image8"border="0"></a></td>
-        </tr>
-      <tr>
-        <td><a href="/fotos/ganadoras/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','/assets/imagenes/ganadoras2.jpg',1)"><img src="/assets/imagenes/ganadoras1.jpg" alt="" width="208" height="43" id="Image9"border="0"></a></td>
-        </tr>
-      <tr>
-        <td><a href="/fotos/buscar/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','/assets/imagenes/buscarfoto2.jpg',1)"><img src="/assets/imagenes/buscarfoto1.jpg" alt="" width="208" height="43" id="Image10"border="0"></a></td>
-        </tr>
-      <tr>
-        <td><a href="/usuarios/logout/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','/assets/imagenes/logout2.jpg',1)"><img src="/assets/imagenes/logout1.jpg" alt="" width="208" height="43" id="Image11"border="0"></a></td>
-        </tr>
-      <tr>
-        <td>&nbsp;</td>
-        </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td width="227">&nbsp;</td>
-        <td width="704">&nbsp;</td>
-      </tr>
-    </table></td>
-  </tr>
-  <tr>
-    <td bgcolor="#FFFFFF">&nbsp;</td>
-  </tr>
-  <tr>
-    <td bgcolor="#34499E"><img src="/assets/imagenes/footer.jpg" width="950" height="60"  alt=""/></td>
-  </tr>
-</table>
+<!-- PRELOADER -->
+<img id="preloader" src="/assets/images/preloader.gif" alt="" />
+<!-- //PRELOADER -->
+	
+	<!-- PAGE -->
+	<div id="page">
+		
+		<!-- CONTAINER -->
+		<div class="container page_block">
+			
+			<!-- WRAPPER -->
+			<div class="wrapper">
+				
+				<!-- HEADER -->
+				<header>
+					
+					<!-- TOP LINE -->
+					<div class="top_line clearfix">
+						<div class="pull-right top_phone"><a href="/login/">Bienvenido <?=$session['nombre']?> <?=$session['apellido']?></a><span class="color_white"><a href="/registro/"></a></span></div>
+						
+						
+				  </div><!-- //TOP LINE -->
+					
+					<!-- MENU -->
+					<div class="menu_block clearfix">
+						
+						<!-- LOGO -->
+						<div class="logo">
+							<a href="/home/" alt="">antarctic</a>
+						</div><!-- LOGO -->
+						
+						<!-- RESPONSIVE BUTTON MENU -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="glyphicon glyphicon-align-justify"></span>
+							</button>
+						</div><!-- //RESPONSIVE BUTTON MENU -->
+						
+						<div class="navbar-collapse collapse">
+							<ul class="nav navbar-nav right">
+							<li ><a href="/fotos/no-aprobadas/1" title="">Fotos No Aprobadas</a></li>
+								<li ><a href="/fotos/aprobadas/1" title="">Fotos Aprobadas</a></li>
+               				  <li class="first active"><a href="/usuarios/jurados/" title="">Actividad Jurado</a></li>
+                              <li><a href="/usuarios/logout/" title="">Salir</a></li>
+
+						  </ul>
+						</div>
+					</div><!-- //MENU -->
+				</header><!-- //HEADER -->
+				
+				<!-- BREADCRUMBS -->
+				<section class="full_width breadcrumbs_block clearfix">
+					<div class="breadcrumbs_content">
+						<h2 class="pull-left">Actividad Jurados</h2>
+					</div>
+					<div class="overlay"></div>
+					<div class="overlay_black"></div>
+				</section><!-- //BREADCRUMBS -->
+				
+				<!-- Price Table -->
+				<section class="price_block">
+                                    <div class="price_table_wrapper">
+                                        <div class="price_item">
+                                            <div class="price_item_wrapper">
+                                                <div class="price_item_title">
+                                                    <h6>Jurado</h6>
+                                                </div>
+                                                <?php foreach($jurados as $jurado) { ?>
+                                                <div class="price_item_text"><?=$jurado['nombre']?> <?=$jurado['apellido']?></div>
+                                                <?php } ?>
+                                            </div>
+                                        </div>
+                                        <div class="price_item">
+                                            <div class="price_item_wrapper">
+                                                <div class="price_item_title">
+                                                    <h6>Fotos Votadas</h6>
+                                                </div>
+                                                <?php foreach($jurados as $jurado) { ?>
+                                                <div class="price_item_text"><?=count($jurado['votadas'])?></div>
+                                                <?php } ?>
+					    </div>
+                                        </div>
+                                        <div class="price_item">
+                                            <div class="price_item_wrapper">
+                                                <div class="price_item_title">
+                                                    <h6>Fotos Pendientes</h6>
+                                                </div>
+						<?php foreach($jurados as $jurado) { ?>
+                                                <div class="price_item_text"><?=(count($jurado['aprobadas'])-count($jurado['votadas']))?></div>
+                                                <?php } ?>
+                                            </div>
+                                        </div>
+					  <p>&nbsp;</p>
+					  <p>&nbsp;</p>
+					  <p>&nbsp;</p>
+					  <p>&nbsp;</p>
+					  <p>&nbsp;</p>
+					  <p>&nbsp;</p>
+					  <p>&nbsp;</p>
+					  <p>&nbsp;</p>
+					  <p>&nbsp;</p>
+					  <p>&nbsp;</p>
+					  <div class="clear"></div>
+				  </div>
+			  </section><!-- //Price Table -->
+
+				<!-- FOOTER -->
+				<footer class="full_width footer_block">
+				  <!-- COPYRIGHT -->
+				  <!-- //COPYRIGHT -->
+				  <table width="100%" border="0">
+				    <tbody>
+				      <tr>
+                                          <td><img src="/assets/images/telefono.png" alt=""/></td>
+                                          <td><div align="right"><img src="/assets/images/redes.png" alt=""/></div></td>
+			          </tr>
+			        </tbody>
+			      </table>
+			  </footer>
+				<!-- //FOOTER -->
+			</div><!-- WRAPPER -->
+		</div><!-- //CONTAINER -->
+	</div><!-- //PAGE -->
 </body>
 </html>
