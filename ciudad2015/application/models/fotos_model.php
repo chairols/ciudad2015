@@ -160,7 +160,7 @@ class Fotos_model extends CI_Model {
     
     public function get_fotos_votadas_limit($idusuario, $limit) {
         $limit -=1;
-        $limit *= 51;
+        $limit *= 52;
         $query = $this->db->query("SELECT *
                                     FROM
                                         votaciones
@@ -168,7 +168,7 @@ class Fotos_model extends CI_Model {
                                         idusuario = '$idusuario'
                                     ORDER BY
                                         puntaje DESC
-                                    LIMIT $limit, 51");
+                                    LIMIT $limit, 52");
         return $query->result_array();
     }
     

@@ -434,7 +434,7 @@ Su foto con el título:'.$this->input->post('nombre').' ID ('.$id.') ha sido sub
         $data['votadas_total'] = $this->fotos_model->get_fotos_votadas($session['SID']);
         $data['aprobadas'] = $this->fotos_model->get_fotos_aprobadas();
         
-        $data['paginacion'] = $this->h_paginacion->paginar($pagina, 51, count($data['votadas_total']), '/fotos/votadas/');
+        $data['paginacion'] = $this->h_paginacion->paginar($pagina, 52, count($data['votadas_total']), '/fotos/votadas/');
         
         $this->load->view('fotos/votadas', $data);
     }
