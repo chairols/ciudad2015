@@ -104,12 +104,12 @@
                         <p><strong>Podes subir hasta 2 fotografías</strong><br>
                           <br>
                               Seleccionar fotografía: 
-                              <input type="file" name="foto" id="fileField">
+                              <input type="file" name="foto" id="fileField" required>
                           <br>
                           <br>
                         </p>
                         <p>Titulo de la foto: 
-                          <input type="text" name="nombre" id="textfield" class="campoformulario">
+                          <input type="text" name="nombre" id="textfield" class="campoformulario" required>
                           <br>
                           <br>
                         </p>
@@ -202,6 +202,12 @@ if($exitoso == '1') { ?>
 <script type="text/javascript">
     $(document).ready(function() {
         alert("Su foto ha sido cargada exitosamente");
+    });
+</script>
+<?php } elseif($exitoso == '2') { ?>
+<script type="text/javascript">
+    $(document).ready(function() {
+        alert("Debe ingresar un nombre a la foto");
     });
 </script>
 <?php } ?>

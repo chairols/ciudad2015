@@ -35,7 +35,7 @@ class Fotos extends CI_Controller {
         $this->form_validation->set_rules('nombre', 'Nombre', 'required');
         
         if($this->form_validation->run() == FALSE) {
-            
+            $data['exitoso'] = '2';
         } else {
             $config['upload_path'] = "./upload/";
             $config['allowed_types'] = "gif|jpg|jpeg|png";
