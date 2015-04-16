@@ -81,7 +81,7 @@
 						
 						<div class="navbar-collapse collapse">
 							<ul class="nav navbar-nav right">
-								<li ><a href="/fotos/no-aprobadas/" title="">Votar</a></li>
+								<li ><a href="/fotos/votar/" title="">Votar</a></li>
 								<li class="first active"><a href="/fotos/votadas/" title="">Fotos Votadas</a></li>
                				  <li></li>
                               <li><a href="/usuarios/logout/" title="">Salir</a></li>

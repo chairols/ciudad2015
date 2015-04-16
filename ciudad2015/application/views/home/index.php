@@ -67,7 +67,7 @@
 						
 						<!-- LOGO -->
 						<div class="logo">
-							<a href="/home/" alt="">antarctic</a>
+							<a href="/home/" alt=""></a>
 						</div><!-- LOGO -->
 						
 						<!-- RESPONSIVE BUTTON MENU -->
@@ -125,7 +125,7 @@
             <img src="/assets/images/slider/slide4_bg.jpg" />
 								<div class="flex_caption1 FromLeft">
 									<p class="title1">Podes ganar</p>
-									<p class="title2"><span>Hasta</span> $26.000</p>
+									<p class="title2"><span>Hasta</span> $27.000</p>
 									<p class="title3">y muchos premios más !</p>
 								</div>
 								
@@ -146,9 +146,9 @@
 
 						<p class="h5"> Con la permanente intención de generar mejoras y actualizaciones en favor de la transparencia, este año se propone un nuevo portal para la carga de las fotografías, que auguramos será de gran facilidad de navegación .</p><br>
 
-						<p class="h5"> <strong>Entrega de premios:</strong> 5 de diciembre<br><br>
+						<p class="h5"> <strong>Entrega de premios:</strong> 3 de diciembre<br><br>
 
-                          <strong>Exposición de las obras ganadoras:</strong> del 2 de diciembre al 5 de febrero del 2016<br>  
+                          <strong>Exposición de las obras ganadoras:</strong> del 3 de Diciembre al 31 de Enero del 2016<br>  
 						  
 					    <br>
 					    <strong>Lugar:</strong> Centro Cultural Recoleta</p>

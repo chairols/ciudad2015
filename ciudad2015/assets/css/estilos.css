@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+.botonnoaprobar {
+	width: 150px;
+	height: 30px;
+	background-color: #00AEEF;
+	color: #FFFFFF;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 13px;
+	border-width: 0px;
+}
+
+.campoformulario {
+	background-color: #E9E9E9;
+	height: 30px;
+}
+.textotabla {
+	color: #000000;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 14px;
+}
+
+.textoazul {
+	color: #00AEEF;
+}
+a:hover 
+{
+	color: #0483B3;
+}

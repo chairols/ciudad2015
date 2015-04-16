@@ -166,7 +166,7 @@ pass: '.$this->input->post('password'));
         }
         $data['ok'] = $ok;
         
-        $this->load->view('usuarios/login1', $data);
+        $this->load->view('usuarios/login', $data);
     }
     
     public function login1($ok = null) {

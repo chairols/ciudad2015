@@ -1,32 +1,181 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Jurado  | Concuso Gente de mi ciudad</title>
-<link href="/assets/css/jurado.css" rel="stylesheet" type="text/css">
-<script type="text/javascript">
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
+	
+	<meta charset="utf-8">
+	<title>XVI Concurso fotográfico | GENTE DE MI CIUDAD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+        <link rel="shortcut icon" href="/assets/images/favicon.ico">
+    
+	<!-- CSS STYLES -->
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/flexslider.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/animate.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/colors/" rel="stylesheet" type="text/css" id="colors" />
+    
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'>
+    
+	<!-- Scripts -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if IE]><html class="ie" lang="en"> <![endif]-->
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+        <script src="/assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="/assets/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+        <script src="/assets/js/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="/assets/js/jquery.isotope.min.js" type="text/javascript"></script>
+        <script src="/assets/js/sorting.js" type="text/javascript"></script>
+        <script src="/assets/js/jquery.twitter.js" type="text/javascript"></script>
+        <script src="/assets/js/superfish.min.js" type="text/javascript"></script>
+        <script src="/assets/js/jquery.flexslider-min.js" type="text/javascript"></script>
+        <script src="/assets/js/animate.js" type="text/javascript"></script>
+        <script src="/assets/js/myscript.js" type="text/javascript"></script>
+	
+</head>
+<body>
 
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
+<!-- PRELOADER -->
+<img id="preloader" src="/assets/images/preloader.gif" alt="" />
+<!-- //PRELOADER -->
+	
+	<!-- PAGE -->
+	<div id="page">
+		
+		<!-- CONTAINER -->
+		<div class="container page_block">
+			
+			<!-- WRAPPER -->
+			<div class="wrapper">
+				
+				<!-- HEADER -->
+				<header>
+					
+					<!-- TOP LINE -->
+					<div class="top_line clearfix">
+						<div class="pull-right top_phone">Bienvenido <?=$session['nombre']?> <?=$session['apellido']?><span class="color_white"><a href="/registro/"></a></span></div>
+						
+						
+				  </div><!-- //TOP LINE -->
+					
+					<!-- MENU -->
+					<div class="menu_block clearfix">
+						
+						<!-- LOGO -->
+						<div class="logo">
+							<a href="/home/" alt="">antarctic</a>
+						</div><!-- LOGO -->
+						
+						<!-- RESPONSIVE BUTTON MENU -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="glyphicon glyphicon-align-justify"></span>
+							</button>
+						</div><!-- //RESPONSIVE BUTTON MENU -->
+						
+						<div class="navbar-collapse collapse">
+							<ul class="nav navbar-nav right">
+								<li class="first active"><a href="/fotos/votar/" title="">Votar</a></li>
+								<li ><a href="/fotos/votadas/" title="">Fotos Votadas</a></li>
+               				  <li></li>
+                              <li><a href="/usuarios/logout/" title="">Salir</a></li>
+                              
 
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-</script>
+						  </ul>
+						</div>
+					</div><!-- //MENU -->
+				</header><!-- //HEADER -->
+				
+				<!-- BREADCRUMBS -->
+			  <section class="full_width breadcrumbs_block clearfix">
+					<div class="breadcrumbs_content">
+						<h2 class="pull-left">Votar </h2>
+					</div>
+					<div class="overlay"></div>
+					<div class="overlay_black"></div>
+				</section><!-- //BREADCRUMBS -->
+				
+				<!-- Portfolio Block -->
+				<section id="projects">
+				  <div class="fotovotar">
+				    <div align="center">
+                                        <?php if($foto['idfoto'] == 0) { ?>
+                                        <p>No hay más fotos para votar</p>
+                                        <?php } else { ?>
+				      <p><img src="/upload/thumb/<?=$foto['foto']?>" alt="" width="850" height="534"/></p>
+				      <p>
+                                      <div align="center">
+                                        <table border="0">
+                                            <tr>
+                                                <td>
+                                                    <div id="s1g" style="float: left;">
+                                                        <img src="/assets/images/star0.png">
+                                                    </div>
+                                                    <div id="s1a" style="display: none; float: left;">
+                                                        <a href="/fotos/voto/<?=$foto['idfoto']?>/1/"><img src="/assets/images/star1.png"></a>
+                                                    </div>
+                                                    <div id="s2g" style="float: left;">
+                                                        <img src="/assets/images/star0.png">
+                                                    </div>
+                                                    <div id="s2a" style="display: none; float: left;">
+                                                        <a href="/fotos/voto/<?=$foto['idfoto']?>/2/"><img src="/assets/images/star1.png"></a>
+                                                    </div>
+                                                    <div id="s3g" style="float: left;">
+                                                        <img src="/assets/images/star0.png">
+                                                    </div>
+                                                    <div id="s3a" style="display: none; float: left;">
+                                                        <a href="/fotos/voto/<?=$foto['idfoto']?>/3/"><img src="/assets/images/star1.png"></a>
+                                                    </div>
+                                                    <div id="s4g" style="float: left;">
+                                                        <img src="/assets/images/star0.png">
+                                                    </div>
+                                                    <div id="s4a" style="display: none; float: left;">
+                                                        <a href="/fotos/voto/<?=$foto['idfoto']?>/4/"><img src="/assets/images/star1.png"></a>
+                                                    </div>
+                                                    <div id="s5g" style="float: left;">
+                                                        <img src="/assets/images/star0.png">
+                                                    </div>
+                                                    <div id="s5a" style="display: none; float: left;">
+                                                        <a href="/fotos/voto/<?=$foto['idfoto']?>/5/"><img src="/assets/images/star1.png"></a>
+                                                    </div>
+                                                    <div style="float: left;">(</div> <div id="res" style="float: left;">0</div><div style="float: left;">)</div>
+
+                                                </td>
+                                            </tr>
+                                        </table>
+                
+                                        </div></p>
+                                        <?php } ?>
+				    </div>
+				  </div>
+                </section>
+				<!-- //Portfolio Block -->
+
+				<!-- FOOTER -->
+				<footer class="full_width footer_block">
+				  <!-- COPYRIGHT -->
+				  <!-- //COPYRIGHT -->
+				  <table width="100%" border="0">
+				    <tbody>
+				      <tr>
+                                          <td><img src="/assets/images/telefono.png" alt=""/></td>
+                                          <td><div align="right"><img src="/assets/images/redes.png" alt=""/></div></td>
+			          </tr>
+			        </tbody>
+			      </table>
+			  </footer>
+				<!-- //FOOTER -->
+			</div><!-- WRAPPER -->
+		</div><!-- //CONTAINER -->
+	</div><!-- //PAGE -->
+</body>
+</html>
 <?php
 $idfoto = 0;
 if(count($fotos) > 0) {
@@ -35,7 +184,6 @@ if(count($fotos) > 0) {
         break;
     }
 }?>
-<script type="text/javascript" src="/assets/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
         
@@ -310,181 +458,3 @@ if(count($fotos) > 0) {
         });
     });
 </script>
-</head>
-
-<body onLoad="MM_preloadImages('/assets/imagenes/aprobadas2.jpg','/assets/imagenes/pendientes2.jpg','/assets/imagenes/logout2.jpg')">
-<table width="950" border="0" align="center" cellpadding="0" cellspacing="0">
-  <tr>
-    <td><img src="/assets/imagenes/header.jpg" width="950" height="157"  alt=""/></td>
-  </tr>
-  <tr>
-    <td bgcolor="#FFFFFF">&nbsp;</td>
-  </tr>
-  <tr>
-    <td bgcolor="#FFFFFF"><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
-      <tr>
-        <td>&nbsp;</td>
-        <td><div align="right"><span class="bienvenido">Bienvenido <?=$session['nombre']?> <?=$session['apellido']?></span></div></td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-        <td><div align="right" class="bienvenido"></div></td>
-      </tr>
-      <tr>
-        <td><a href="/fotos/votadas/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','/assets/imagenes/votadas2.jpg',1)"><img src="/assets/imagenes/votadas1.jpg" alt="" width="208" height="43" id="Image5"border="0"></a></td>
-        <?php
-        if(count($fotos) > 0) {
-        $k = 0;
-        foreach ($fotos as $key => $value) {
-            $k = $key;
-            break;
-        }
-        ?>
-        <td rowspan="16">
-            <div align="center"><img src="/upload/chicas/<?=$foto['foto']?>"  alt=""/></div></td>
-    <?php } ?>
-      </tr>
-      <tr>
-        <td><a href="/fotos/votar/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','/assets/imagenes/pendientes2.jpg',1)"><img src="/assets/imagenes/pendientes1.jpg" alt="" width="208" height="43" id="Image6"border="0"></a></td>
-        </tr>
-      <tr>
-        <td><a href="/usuarios/logout/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','/assets/imagenes/logout2.jpg',1)"><img src="/assets/imagenes/logout1.jpg" alt="" width="208" height="43" id="Image11"border="0"></a></td>
-        </tr>
-      <tr>
-        <td>&nbsp;</td>
-        </tr>
-      <tr>
-        <td class="bienvenido">&nbsp;</td>
-      </tr>
-      <tr>
-        <td class="bienvenido">Usted voto: <?=count($votadas)?> fotos</td>
-        </tr>
-      <tr>
-        <td class="bienvenido">Restan votar: <?=count($fotos)-count($votadas)?> fotos</td>
-        </tr>
-      <tr>
-        <td>&nbsp;</td>
-        </tr>
-      <tr>
-        <td class="bienvenido">Dias restantes: x dias</td>
-        </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>
-            <a href="/usuarios/consultas/"><img src="/assets/imagenes/problemas.jpg" width="206" height="98"  alt="" border"0"/></a></td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <?php
-        if(count($fotos) > 0) {
-        $k = 0;
-        foreach ($fotos as $key => $value) {
-            $k = $key;
-            break;
-        }
-        ?>
-      <tr>
-        <td>&nbsp;</td>
-        <td><div align="center">
-                <table border="0">
-                    <tr>
-                        <td>
-                            <div id="s1g" style="float: left;">
-                                <img src="/assets/img/star0.png">
-                            </div>
-                            <div id="s1a" style="display: none; float: left;">
-                                <a href="/fotos/voto/<?=$foto['idfoto']?>/1/"><img src="/assets/img/star1.png"></a>
-                            </div>
-                            <div id="s2g" style="float: left;">
-                                <img src="/assets/img/star0.png">
-                            </div>
-                            <div id="s2a" style="display: none; float: left;">
-                                <a href="/fotos/voto/<?=$foto['idfoto']?>/2/"><img src="/assets/img/star1.png"></a>
-                            </div>
-                            <div id="s3g" style="float: left;">
-                                <img src="/assets/img/star0.png">
-                            </div>
-                            <div id="s3a" style="display: none; float: left;">
-                                <a href="/fotos/voto/<?=$foto['idfoto']?>/3/"><img src="/assets/img/star1.png"></a>
-                            </div>
-                            <div id="s4g" style="float: left;">
-                                <img src="/assets/img/star0.png">
-                            </div>
-                            <div id="s4a" style="display: none; float: left;">
-                                <a href="/fotos/voto/<?=$foto['idfoto']?>/4/"><img src="/assets/img/star1.png"></a>
-                            </div>
-                            <div id="s5g" style="float: left;">
-                                <img src="/assets/img/star0.png">
-                            </div>
-                            <div id="s5a" style="display: none; float: left;">
-                                <a href="/fotos/voto/<?=$foto['idfoto']?>/5/"><img src="/assets/img/star1.png"></a>
-                            </div>
-                            <div id="s6g" style="float: left;">
-                                <img src="/assets/img/star0.png">
-                            </div>
-                            <div id="s6a" style="display: none; float: left;">
-                                <a href="/fotos/voto/<?=$foto['idfoto']?>/6/"><img src="/assets/img/star1.png"></a>
-                            </div>
-                            <div id="s7g" style="float: left;">
-                                <img src="/assets/img/star0.png">
-                            </div>
-                            <div id="s7a" style="display: none; float: left;">
-                                <a href="/fotos/voto/<?=$foto['idfoto']?>/7/"><img src="/assets/img/star1.png"></a>
-                            </div>
-                            <div id="s8g" style="float: left;">
-                                <img src="/assets/img/star0.png">
-                            </div>
-                            <div id="s8a" style="display: none; float: left;">
-                                <a href="/fotos/voto/<?=$foto['idfoto']?>/8/"><img src="/assets/img/star1.png"></a>
-                            </div>
-                            <div id="s9g" style="float: left;">
-                                <img src="/assets/img/star0.png">
-                            </div>
-                            <div id="s9a" style="display: none; float: left;">
-                                <a href="/fotos/voto/<?=$foto['idfoto']?>/9/"><img src="/assets/img/star1.png"></a>
-                            </div>
-                            <div id="s10g" style="float: left;">
-                                <img src="/assets/img/star0.png">
-                            </div>
-                            <div id="s10a" style="display: none; float: left;">
-                                <a href="/fotos/voto/<?=$foto['idfoto']?>/10/"><img src="/assets/img/star1.png"></a>
-                            </div> 
-                            <div style="float: left;">(</div> <div id="res" style="float: left;">0</div><div style="float: left;">)</div>
-
-                        </td>
-                    </tr>
-                </table>
-                
-            </div></td>
-      </tr>
-        <?php } ?>
-      <tr>
-        <td width="202">&nbsp;</td>
-        <td width="701">&nbsp;</td>
-      </tr>
-    </table></td>
-  </tr>
-  <tr>
-    <td bgcolor="#FFFFFF">&nbsp;</td>
-  </tr>
-  <tr>
-    <td bgcolor="#34499E"><img src="/assets/imagenes/footer.jpg" width="950" height="60"  alt=""/></td>
-  </tr>
-</table>
-</body>
-</html>

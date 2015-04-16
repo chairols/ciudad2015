@@ -17,7 +17,7 @@
         <link href="/assets/css/animate.css" rel="stylesheet" type="text/css" media="all" />
         <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
         <link href="/assets/css/colors/" rel="stylesheet" type="text/css" id="colors" />
-    
+        <link href="/assets/css/estilos.css" rel="stylesheet" type="text/css" />
 	<!-- Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'>
@@ -107,7 +107,7 @@
                                             <?php foreach($aprobadas as $aprobada) { ?>
                                             <div class="element col-sm-3 category1 project padbot30">
                                                 <div class="hover_img">
-                                                    <img src="/upload/<?=$aprobada['foto']?>" alt="<?=$aprobada['nombre']?>" />
+                                                    <img src="/upload/thumb/<?=$aprobada['foto']?>" alt="<?=$aprobada['nombre']?>" />
                                                     <a class="zoom" href="/upload/<?=$aprobada['foto']?>" rel="prettyPhoto[portfolio1]"></a>
                                                 </div>
                                                 <div class="project_descr center">

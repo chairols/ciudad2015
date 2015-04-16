@@ -1,298 +1,320 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Administracion | Concuso Gente de mi ciudad</title>
-<link href="/assets/css/admin.css" rel="stylesheet" type="text/css">
-<script type="text/javascript">
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+	
+	<meta charset="utf-8">
+	<title>XVI Concurso fotográfico | GENTE DE MI CIUDAD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<link rel="shortcut icon" href="images/favicon.ico">
+    
+	<!-- CSS STYLES -->
+	<link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+	<link href="/assets/css/flexslider.css" rel="stylesheet" type="text/css" />
+	<link href="/assets/css/animate.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="/assets/css/colors/" rel="stylesheet" type="text/css" id="colors" />
+	<link href="/assets/css/estilos.css" rel="stylesheet" type="text/css" id="colors" />
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+	body,td,th {
+	font-family: "Open Sans", sans-serif;
+	color: #090000;
 }
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-</script>
+    </style>
+    
+	<!-- Scripts -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if IE]><html class="ie" lang="en"> <![endif]-->
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+	<script src="/assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="/assets/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="/assets/js/jquery-ui.min.js" type="text/javascript"></script>
+	<script src="/assets/js/jquery.twitter.js" type="text/javascript"></script>
+	<script src="/assets/js/superfish.min.js" type="text/javascript"></script>
+	<script src="/assets/js/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="/assets/js/animate.js" type="text/javascript"></script>
+	<script src="/assets/js/myscript.js" type="text/javascript"></script>
+	
 </head>
+<body>
 
-<body onLoad="MM_preloadImages('/assets/imagenes/concurso2.png','/assets/imagenes/concursosanteriores2.png','/assets/imagenes/comoparticipar2.png','/assets/imagenes/eljurado2.png','/assets/imagenes/premios2.png','/assets/imagenes/registrate2.png','/assets/imagenes//ingresar2.png','/assets/imagenes/bases2.png')">
-<table width="950" border="0" align="center" cellpadding="0" cellspacing="0">
-  <tr>
-    <td width="1040"><img src="/assets/imagenes/header.jpg" width="950" height="150"  alt=""/></td>
-  </tr>
-  <tr>
-    <td class="fondo6" ><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
-        <tr>
-          <td width="202"><a href="/index.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','/assets/imagenes/concurso2.png',1)"><img src="/assets/imagenes/concurso1.png" alt="" width="184" height="31" id="Image1"></a></td>
-          <td class="fondoblanco" width="701" rowspan="20" ><table   width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
-            <tr>
-              <td><form role="form" method="post">
-                <div class="form-group"></div>
-                <div class="form-group"></div>
-                <div class="form-group"></div>
-                <div class="form-group"></div>
-                <div class="form-group"></div>
-                <div class="form-group"></div>
-                <div class="form-group"></div>
-                <div class="form-group"></div>
-                <div class="form-group"></div>
-                <div class="form-group"></div>
-                <div class="form-group"></div>
-                <div class="form-group"></div>
-                <div class="form-group"></div>
-                <div class="form-group"></div>
-                <table width="95%" border="0" align="center" cellpadding="0" cellspacing="2" class="textorojochico">
-                  <tr>
-                    <td colspan="3" class="interiortabla2"><p><strong>Registrarse como: <a href="http://gentedemiciudad.com/usuarios/registrar">INIDIVIDUO</a> | <a href="http://gentedemiciudad.com/usuarios/registro_colectivo">COLECTIVO DE FOTÖGRAFOS</a></strong></p></td>
-                  </tr>
-                  <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                  </tr>
-                  <tr>
-                    <td width="158"><span class="form-group">
-                      <label>
-                      <div align="right" class="interiortabla2">Nombre                    </div>
-                      </span></td>
-                    <td width="12">&nbsp;</td>
-                    <td width="429"><span class="form-group">
-                      <input type="text" class="form-control" name="nombre" placeholder="Nombre" value="<?=set_value('nombre')?>" autofocus>
-                      <?php echo substr(form_error('nombre'), 3); ?></span></td>
-                    </tr>
-                  <tr>
-                    <td><span class="form-group">
-                      <label>
-                      <div align="right" class="interiortabla2" >Apellido</div></span></td>
-                    <td>&nbsp;</td>
-                    <td><span class="form-group">
-                      <input type="text" class="form-control" name="apellido" placeholder="Apellido" value="<?=set_value('apellido')?>">
-                      <?php echo substr(form_error('apellido'), 3); ?></span></td>
-                    </tr>
-                  <tr>
-                    <td><span class="form-group">
-                      <label>
-                      <div align="right" class="interiortabla2">Tipo DNI</div></span></td>
-                    <td>&nbsp;</td>
-                    <td><span class="form-group">
-                      <select name="tipo_dni" class="form-control">
-                        <?php foreach($tipos_dni as $tipo_dni) { ?>
-                        <option value="<?=$tipo_dni['idtipo_dni']?>">
-                          <?=$tipo_dni['tipo_dni']?>
-                          </option>
-                        <?php } ?>
-                        </select>
-                      </span></td>
-                    </tr>
-                  <tr>
-                    <td><span class="form-group">
-                      <label>
-                      <div align="right" class="interiortabla2">Numero DNI</div></span></td>
-                    <td>&nbsp;</td>
-                    <td><span class="form-group">
-                      <input type="text" class="form-control" name="numero_dni" placeholder="Numero DNI" value="<?=set_value('numero_dni')?>">
-                      <?php echo substr(form_error('numero_dni'), 3); ?>
-                      <?php if(isset($numero_dni)) echo $numero_dni; ?>
-                      </span></td>
-                    </tr>
-                  <tr>
-                    <td><span class="form-group">
-                      <label>
-                      <div align="right" class="interiortabla2">Direccion</div></span></td>
-                    <td>&nbsp;</td>
-                    <td><span class="form-group">
-                      <input type="text" class="form-control" name="direccion" placeholder="Direccion" value="<?=set_value('direccion')?>">
-                      <?php echo substr(form_error('direccion'), 3); ?></span></td>
-                    </tr>
-                  <tr>
-                    <td><span class="form-group">
-                      <label>
-                      <div align="right" class="interiortabla2">Ciudad</div></span></td>
-                    <td>&nbsp;</td>
-                    <td><span class="form-group">
-                      <input type="text" class="form-control" name="ciudad" placeholder="Ciudad" value="<?=set_value('ciudad')?>">
-                      <?php echo substr(form_error('ciudad'), 3); ?></span></td>
-                    </tr>
-                  <tr>
-                    <td><span class="form-group">
-                      <label>
-                      <div align="right" class="interiortabla2">Codigo Postal</div></span></td>
-                    <td>&nbsp;</td>
-                    <td><span class="form-group">
-                      <input type="text" class="form-control" name="codigo_postal" placeholder="Codigo Postal" value="<?=set_value('codigo_postal')?>">
-                      <?php echo substr(form_error('codigo_postal'), 3); ?></span></td>
-                    </tr>
-                  <tr>
-                    <td><span class="form-group">
-                      <label>
-                      <div align="right" class="interiortabla2">Provincia</div></span></td>
-                    <td>&nbsp;</td>
-                    <td><span class="form-group">
-                      <input type="text" class="form-control" name="provincia" placeholder="Provincia" value="<?=set_value('provincia')?>">
-                      <?php echo substr(form_error('provincia'), 3); ?></span></td>
-                    </tr>
-                  <tr>
-                    <td><span class="form-group">
-                      <label>
-                      <div align="right" class="interiortabla2">Email</div></span></td>
-                    <td>&nbsp;</td>
-                    <td><span class="form-group">
-                      <input type="email" class="form-control" name="email" placeholder="Email" value="<?=set_value('email')?>">
-                      <?php echo substr(form_error('email'), 3); ?>
-                      <?php if(isset($email)) echo $email; ?>
-                      </span></td>
-                    </tr>
-                  <tr>
-                    <td><span class="form-group">
-                      <label>
-                      <div align="right" class="interiortabla2">Confirmar Email</div></span></td>
-                    <td>&nbsp;</td>
-                    <td><span class="form-group">
-                      <input type="email" class="form-control" name="email2" placeholder="Email" value="<?=set_value('email2')?>">
-                      <?php echo substr(form_error('email2'), 3); ?>
-                      <?php if(isset($email2)) echo $email2; ?>
-                      </span></td>
-                    </tr>
-                  <tr>
-                    <td><span class="form-group">
-                      <label>
-                      <div align="right" class="interiortabla2">Telefono</div></span></td>
-                    <td>&nbsp;</td>
-                    <td><span class="form-group">
-                      <input type="tel" class="form-control" name="telefono" placeholder="Telefono" value="<?=set_value('telefono')?>">
-                      <?php echo substr(form_error('telefono'), 3); ?></span></td>
-                    </tr>
-                  <tr>
-                    <td><span class="form-group">
-                      <label>
-                      <div align="right" class="interiortabla2">Crear Usuario</div></span></td>
-                    <td>&nbsp;</td>
-                    <td><span class="form-group">
-                      <input type="text" class="form-control" name="usuario" placeholder="Usuario" value="<?=set_value('usuario')?>">
-                      <?php echo substr(form_error('usuario'), 3); ?>
-                      <?php if(isset($usuario)) echo $usuario; ?>
-                      </span></td>
-                    </tr>
-                  <tr>
-                    <td><span class="form-group">
-                      <label>
-                      <div align="right" class="interiortabla2"> Crear Password</div></span></td>
-                    <td>&nbsp;</td>
-                    <td><span class="form-group">
-                      <input type="password" class="form-control" name="password" placeholder="Password">
-                      <?php echo substr(form_error('password'), 3); ?></span></td>
-                    </tr>
-                  <tr>
-                    <td><span class="form-group">
-                      <label>
-                      <div align="right" class="interiortabla2">Confirmar Password</div>
-                      </label>
-                      </span></td>
-                    <td>&nbsp;</td>
-                    <td><span class="form-group">
-                      <input type="password" class="form-control" name="passconf" placeholder="Password">
-                      <?php echo substr(form_error('passconf'), 3); ?></span></td>
-                    </tr>
-                  <tr>
-                    <td><span class="form-group">
-                      <label>
-                        &nbsp;
-                        </label>
-                      </span></td>
-                    <td>&nbsp;</td>
-                    <td><span class="form-group">
-                      <input type="checkbox" class="form-control" name="bases"> Acepto las bases y condiciones</span></td>
-                    </tr>
-                  <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    </tr>
-                  <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td><button type="submit" class="btn btn-default botonnoaprobar">Registrate</button></td>
-                    </tr>
-                  </table>
-                </form></td>
-              </tr>
-          </table></td>
-        </tr>
-      <tr>
-        <td><a href="/como-participar/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','/assets/imagenes/comoparticipar2.png',1)"><img src="/assets/imagenes/comoparticipar1.png" alt="" width="184" height="31" id="Image5" border="0"></a></td>
-        </tr>
-      <tr>
-        <td><a href="/usuarios/registrar/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','/assets/imagenes/registrate2.png',1)"><img src="/assets/imagenes/registrate1.png" alt="" width="184" height="31" id="Image8" border="0"></a></td>
-        </tr>
-      <tr>
-        <td><a href="/usuarios/login/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','/assets/imagenes//ingresar2.png',1)"><img src="/assets/imagenes/ingresar1.png" alt="" width="184" height="31" id="Image9" border="0"></a></td>
-        </tr>
-      <tr>
-        <td><a href="/bases_y_condiciones/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','/assets/imagenes/bases2.png',1)"><img src="/assets/imagenes/bases1.png" alt="" width="184" height="31" id="Image10"></a></td>
-        </tr>
-      <tr>
-        <td><a href="/premios/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','/assets/imagenes/premios2.png',1)"><img src="/assets/imagenes/premios1.png" alt="" width="184" height="31" id="Image7" border="0"></a></td>
-        </tr>
-      <tr>
-        <td><a href="/jurado/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','/assets/imagenes/eljurado2.png',1)"><img src="/assets/imagenes/eljurado1.png" alt="" width="184" height="31" id="Image6" border="0"></a></td>
-        </tr>
-      <tr>
-        <td><a href="/ediciones_anteriores/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','/assets/imagenes/concursosanteriores2.png',1)"><img src="/assets/imagenes/concursosanteriores1.png" alt="" width="184" height="31" id="Image4" border="0"></a></td>
-        </tr>
-      <tr>
-        <td>&nbsp;</td>
-        </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-    </table></td>
-  </tr>
-  <tr>
-    <td bgcolor="#34499E"><img src="/assets/imagenes/footer.jpg" width="950" height="60"  alt=""/></td>
-  </tr>
-</table>
+<!-- PRELOADER -->
+<img id="preloader" src="/assets/images/preloader.gif" alt="" />
+<!-- //PRELOADER -->
+	
+	<!-- PAGE -->
+	<div id="page">
+		
+		<!-- CONTAINER -->
+		<div class="container page_block">
+			
+			<!-- WRAPPER -->
+			<div class="wrapper">
+				
+				<!-- HEADER -->
+				<header>
+					
+										<!-- TOP LINE -->
+					<div class="top_line clearfix">
+						<div class="pull-right top_phone"><a href="/usuarios/login/">Ingresar</a> <span class="color_white"><a href="/usuarios/registrar/">Registrate</a></span></div>
+						
+						
+					</div><!-- //TOP LINE -->
+					
+					<!-- MENU -->
+					<div class="menu_block clearfix">
+					  <!-- LOGO -->
+					  <div class="logo"> <a href="/home/" alt="">antarctic</a> </div>
+					  <!-- LOGO -->
+					  <!-- RESPONSIVE BUTTON MENU -->
+					  <div class="navbar-header">
+					    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="glyphicon glyphicon-align-justify"></span> </button>
+				      </div>
+					  <!-- //RESPONSIVE BUTTON MENU -->
+					  <div class="navbar-collapse collapse">
+					    <ul class="nav navbar-nav right">
+					      <li ><a href="/home/" title="">Inicio</a></li>
+					      <li><a href="/como-participar/" title="">Como participar?</a></li>
+					      <li ><a href="/bases-y-condiciones/" title="">Bases y condiciones</a></li>
+					      <li><a href="/jurado/" title="">Jurado</a></li>
+					      <li ><a href="/premios/" title="">Premios</a></li>
+				        </ul>
+				      </div>
+				  </div>
+					<!-- //MENU -->
+				</header><!-- //HEADER -->
+				
+				<!-- BREADCRUMBS -->
+				<section class="full_width breadcrumbs_block clearfix">
+					<div class="breadcrumbs_content">
+						<h2 class="pull-left">Registrate como individuo</h2>
+					</div>
+					<div class="overlay"></div>
+					<div class="overlay_black"></div>
+				</section><!-- //BREADCRUMBS -->
+				
+				<!-- Our Vision -->
+		  <section class="our_vision">
+                      
+		    <table width="95%" border="0" align="center" cellpadding="0" cellspacing="2" >
+                        <form method="POST">
+		      <tr>
+		        <td colspan="3" ><p ><strong>Registrarse como:<a class="textoazul" href="/usuarios/registrar"> INIDIVIDUO</a> | <a class="textoazul"   href="/usuarios/registro_colectivo">COLECTIVO DE FOTÓGRAFOS</a></strong></p></td>
+	          </tr>
+		      <tr>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+	          </tr>
+		      <tr>
+		        <td width="158"><span class="form-group">
+		          <label>
+                  </span>
+	            <div align="right" ><span class="form-group">Nombre </span></div></td>
+		        <td width="12">&nbsp;</td>
+		        <td width="429"><span class="form-group">
+		          <input type="text" class="form-control" name="nombre" placeholder="Nombre" value="<?=set_value('nombre')?>" required autofocus>
+		          <?php echo substr(form_error('nombre'), 3); ?></span></td>
+	          </tr>
+		      <tr>
+		        <td><span class="form-group">
+		          <label>
+                  </span>
+	            <div align="right"  ><span class="form-group">Apellido</span></div></td>
+		        <td>&nbsp;</td>
+		        <td><span class="form-group">
+		          <input type="text" class="form-control" name="apellido" placeholder="Apellido" value="<?=set_value('apellido')?>" required>
+		          <?php echo substr(form_error('apellido'), 3); ?></span></td>
+	          </tr>
+		      <tr>
+		        <td><span class="form-group">
+		          <label>
+                  </span>
+	            <div align="right" ><span class="form-group">Tipo DNI</span></div></td>
+		        <td>&nbsp;</td>
+		        <td><span class="form-group">
+                            <select name="tipo_dni" class="form-control selectconestilo">
+                                <?php foreach($tipos_dni as $tipo_dni) { ?>
+                                <option value="<?=$tipo_dni['idtipo_dni']?>"><?=$tipo_dni['tipo_dni']?></option>
+                                <?php } ?>
+                            </select>
+		          </span></td>
+	          </tr>
+		      <tr>
+		        <td><span class="form-group">
+		          <label>
+                  </span>
+	            <div align="right" ><span class="form-group">Numero DNI</span></div></td>
+		        <td>&nbsp;</td>
+		        <td><span class="form-group">
+                                <input type="text" class="form-control" name="numero_dni" placeholder="Numero DNI" value="<?=set_value('numero_dni')?>" required>
+		          <?php echo substr(form_error('numero_dni'), 3); ?>
+		          <?php if(isset($numero_dni)) echo $numero_dni; ?>
+		          </span></td>
+	          </tr>
+		      <tr>
+		        <td><span class="form-group">
+		          <label>
+                  </span>
+	            <div align="right" ><span class="form-group">Direccion</span></div></td>
+		        <td>&nbsp;</td>
+		        <td><span class="form-group">
+                                <input type="text" class="form-control" name="direccion" placeholder="Direccion" value="<?=set_value('direccion')?>" required>
+		          <?php echo substr(form_error('direccion'), 3); ?></span></td>
+	          </tr>
+		      <tr>
+		        <td><span class="form-group">
+		          <label>
+                  </span>
+	            <div align="right" ><span class="form-group">Ciudad</span></div></td>
+		        <td>&nbsp;</td>
+		        <td><span class="form-group">
+                                <input type="text" class="form-control" name="ciudad" placeholder="Ciudad" value="<?=set_value('ciudad')?>" required>
+		          <?php echo substr(form_error('ciudad'), 3); ?></span></td>
+	          </tr>
+		      <tr>
+		        <td><span class="form-group">
+		          <label>
+                  </span>
+	            <div align="right" ><span class="form-group">Codigo Postal</span></div></td>
+		        <td>&nbsp;</td>
+		        <td><span class="form-group">
+                                <input type="text" class="form-control" name="codigo_postal" placeholder="Codigo Postal" value="<?=set_value('codigo_postal')?>" required>
+		          <?php echo substr(form_error('codigo_postal'), 3); ?></span></td>
+	          </tr>
+		      <tr>
+		        <td><span class="form-group">
+		          <label>
+                  </span>
+	            <div align="right" ><span class="form-group">Provincia</span></div></td>
+		        <td>&nbsp;</td>
+		        <td><span class="form-group">
+                                <input type="text" class="form-control" name="provincia" placeholder="Provincia" value="<?=set_value('provincia')?>" required>
+		          <?php echo substr(form_error('provincia'), 3); ?></span></td>
+	          </tr>
+		      <tr>
+		        <td><span class="form-group">
+		          <label>
+                  </span>
+	            <div align="right" ><span class="form-group">Email</span></div></td>
+		        <td>&nbsp;</td>
+		        <td><span class="form-group">
+                                <input type="email" class="form-control" name="email" placeholder="Email" value="<?=set_value('email')?>" required>
+		          <?php echo substr(form_error('email'), 3); ?>
+		          <?php if(isset($email)) echo $email; ?>
+		          </span></td>
+	          </tr>
+		      <tr>
+		        <td><span class="form-group">
+		          <label>
+                  </span>
+	            <div align="right" ><span class="form-group">Confirmar Email</span></div></td>
+		        <td>&nbsp;</td>
+		        <td><span class="form-group">
+                                <input type="email" class="form-control" name="email2" placeholder="Email" value="<?=set_value('email2')?>" required>
+		          <?php echo substr(form_error('email2'), 3); ?>
+		          <?php if(isset($email2)) echo $email2; ?>
+		          </span></td>
+	          </tr>
+		      <tr>
+		        <td><span class="form-group">
+		          <label>
+                  </span>
+	            <div align="right" ><span class="form-group">Telefono</span></div></td>
+		        <td>&nbsp;</td>
+		        <td><span class="form-group">
+                                <input type="text" class="form-control" name="telefono" placeholder="Telefono" value="<?=set_value('telefono')?>" required>
+		          <?php echo substr(form_error('telefono'), 3); ?></span></td>
+	          </tr>
+		      <tr>
+		        <td><span class="form-group">
+		          <label>
+                  </span>
+	            <div align="right" ><span class="form-group">Crear Usuario</span></div></td>
+		        <td>&nbsp;</td>
+		        <td><span class="form-group">
+                
+                                <input type="text" class="form-control" name="usuario" placeholder="Usuario" value="<?=set_value('usuario')?>" required>
+		          <?php echo substr(form_error('usuario'), 3); ?>
+		          <?php if(isset($usuario)) echo $usuario; ?>
+		          </span></td>
+	          </tr>
+		      <tr>
+		        <td><span class="form-group">
+		          <label>
+		          </span>
+		          <div align="right" ><span class="form-group"> Crear Password</span></div></td>
+		        <td>&nbsp;</td>
+		        <td><span class="form-group">
+                                <input type="password" class="form-control" name="password" placeholder="Password" required>
+		          <?php echo substr(form_error('password'), 3); ?></span></td>
+	          </tr>
+		      <tr>
+		        <td><span class="form-group">
+		          <label>
+		          </span>
+		          <div align="right" ><span class="form-group">Confirmar Password</span></div>
+		          <span class="form-group">
+		            </label>
+	              </span></td>
+		        <td>&nbsp;</td>
+		        <td><span class="form-group">
+                                <input type="password" class="form-control" name="passconf" placeholder="Password" required>
+		          <?php echo substr(form_error('passconf'), 3); ?></span></td>
+	          </tr>
+		      <tr>
+		        <td><span class="form-group">
+		          <label> &nbsp; </label>
+		          </span></td>
+		        <td>&nbsp;</td>
+		        <td><span >
+                                <input type="checkbox" name="bases">
+		          Acepto las bases y condiciones</span></td>
+	          </tr>
+		      <tr>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+	          </tr>
+		      <tr>
+		        <td>&nbsp;</td>
+		        <td>&nbsp;</td>
+		        <td><button class="botonnoaprobar" type="submit" >Registrate</button></td>
+	          </tr>
+                  </form>
+	        </table>
+		  </section>
+		  <!-- //Our Vision -->
+				
+				<!-- Our Mission --><!-- //Our Mission -->
+				
+				<!-- Our Team -->
+			  <section class="padtop0 team_block"></section>
+				<!-- //Our Team -->
+
+				<!-- FOOTER -->
+			  <footer class="full_width footer_block">
+				  <!-- COPYRIGHT -->
+				  <!-- //COPYRIGHT -->
+				  <table width="100%" border="0">
+				    <tbody>
+				      <tr>
+				        <td><img src="/assets/images/telefono.png" alt=""/></td>
+				        <td><div align="right"><img src="/assets/images/redes.png" alt=""/></div></td>
+			          </tr>
+			        </tbody>
+			      </table>
+			  </footer>
+				<!-- //FOOTER -->
+			</div><!-- WRAPPER -->
+		</div><!-- //CONTAINER -->
+	</div><!-- //PAGE -->
 </body>
 </html>

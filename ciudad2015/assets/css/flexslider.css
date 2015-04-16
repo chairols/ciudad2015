@@ -41,11 +41,7 @@ html[xmlns] .slides {display: block;}
 /* FlexSlider Default Theme
 *********************************/
 .flexslider {overflow:hidden; position: relative; z-index:2;}
-.flexslider.top_slider {
-	min-height: 564px;
-	background-color: #505050;
-	max-height: 564px;
-}
+.flexslider.top_slider {min-height:564px; background-color:#505050;}
 .flex-viewport { max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
 .loading .flex-viewport { max-height: 300px; }
 .flexslider .slides { zoom: 1; }
@@ -117,12 +113,7 @@ html[xmlns] .slides {display: block;}
 	width:55px;
 	height:56px;
 }
-.slide1 .flex_caption1 .title1 {
-	margin: 0;
-	line-height: 28px;
-	font-size: 28px;
-	color: #F8F8F8;
-}
+.slide1 .flex_caption1 .title1 {margin:0; line-height:28px; font-size:22px; color:#b2b2b2;}
 .slide1 .flex_caption1 .title2 {margin:0 0 39px; line-height:53px; font-size:44px; color:#fff;}
 .slide1 .flex_caption1 .slide_buttons .btn-left {border-radius:4px 0 0 4px;}
 .slide1 .flex_caption1 .slide_buttons .btn-right {border-radius:0 4px 4px 0;}
@@ -154,12 +145,7 @@ html[xmlns] .slides {display: block;}
 .slide2 .flex_caption1 .title1 {margin:0 0 4px; line-height:33px; font-size:33px; color:#fff;}
 .slide2 .flex_caption1 .title2 {margin:0; font-weight:700; line-height:65px; font-size:65px; color:#fff;}
 .slide2 .flex_caption1 .title2 span {font-weight:400; font-size:44px;}
-.slide2 .flex_caption1 .title3 {
-	margin: 0 0 5px;
-	line-height: 28px;
-	font-size: 22px;
-	color: #FFFFFF;
-}
+.slide2 .flex_caption1 .title3 {margin:0 0 5px; line-height:28px; font-size:22px; color:#b2b2b2;}
 
 .slide2 .flex_caption2 {
 	position:absolute;
@@ -522,3 +508,36 @@ html[xmlns] .slides {display: block;}
 	
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

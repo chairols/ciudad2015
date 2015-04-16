@@ -231,7 +231,7 @@ class Fotos_model extends CI_Model {
     }
     
     public function get_ultima_foto_votada($idusuario) {
-        $query = $this->db->query("SELECT min(idfoto) as ultima
+        $query = $this->db->query("SELECT max(idfoto) as ultima
                                     FROM
                                         votaciones
                                     WHERE
@@ -244,10 +244,10 @@ class Fotos_model extends CI_Model {
                                     FROM
                                         fotos
                                     WHERE
-                                        idfoto < '$idultimafoto' AND
+                                        idfoto > '$idultimafoto' AND
                                         aprobado = '1'
                                     ORDER BY
-                                        idfoto DESC");
+                                        idfoto");
         return $query->result_array();
     }
 }

@@ -45,6 +45,7 @@ class Fotos extends CI_Controller {
             $config['encrypt_name'] = true;
             $config['remove_spaces'] = true;
 
+            
             $this->load->library('upload', $config);
 
             if(!$this->upload->do_upload('foto')) {
@@ -58,17 +59,31 @@ class Fotos extends CI_Controller {
                     'foto' => $data['upload_data']['file_name'],
                     'aprobado' => 1
                 );
+                
+                
                 $fotos = $this->fotos_model->get_mis_fotos($session['SID']);
                 if(count($fotos) < 2) {
                     $id = $this->fotos_model->set($datos);
                     
-                    $this->email->from('no-responder@gentedemiciudad.com', 'XV Concuso Gente de mi ciudad');
+                    $imagen['image_library'] = 'gd2';
+                    $imagen['source_image'] = './upload/'.$data['upload_data']['file_name'];
+                    //$imagen['create_thumb'] = TRUE;
+                    $imagen['maintain_ratio'] = TRUE;
+                    $imagen['new_image'] = './upload/thumb/';
+                    $imagen['width'] = 800;
+                    $imagen['height'] = 500;
+                    
+                    $this->load->library('image_lib', $imagen);
+                    
+                    $this->image_lib->resize();
+                    
+                    $this->email->from('no-responder@gentedemiciudad.com', 'XVI Concuso Gente de mi ciudad');
                     $this->email->to($session['email']);
                     $this->email->subject('Foto subida con éxito');
                     $this->email->message($session['nombre'].' '.$session['apellido'].'
 
-Gracias por participar en el XV Concurso fotográfico Gente de mi Ciudad 
-Su foto con el título:'.$this->input->post('nombre').' ID ('.$id.') ha sido subida con éxito.');
+Gracias por participar en el XVI Concurso fotográfico Gente de mi Ciudad 
+Su foto con el título:'.$this->input->post('nombre').', con el número de participación ('.$id.') ha sido subida con éxito.');
                 
                     $this->email->send();
                     
@@ -76,8 +91,6 @@ Su foto con el título:'.$this->input->post('nombre').' ID ('.$id.') ha sido sub
                 }
             }
         }
-        
-        
         
         
         $data['fotos'] = $this->fotos_model->get_mis_fotos($session['SID']);
@@ -281,6 +294,9 @@ Su foto con el título:'.$this->input->post('nombre').' ID ('.$id.') ha sido sub
         //$tiempoinicial = $this->getTiempo();
         
         $idultimafoto = $this->fotos_model->get_ultima_foto_votada($session['SID']);
+        if($idultimafoto == null) {
+            $idultimafoto['ultima'] = 9999999999;
+        }
         $proximas = $this->fotos_model->get_proximas_fotos_a_votar($idultimafoto['ultima']);
         if(count($proximas) > 0) {
             $data['foto'] = $proximas[0];

@@ -65,7 +65,7 @@
 					<!-- MENU -->
 					<div class="menu_block clearfix">
 					  <!-- LOGO -->
-					  <div class="logo"> <a href="/home/" alt="">antarctic</a> </div>
+					  <div class="logo"> <a href="/home/" alt=""></a> </div>
 					  <!-- LOGO -->
 					  <!-- RESPONSIVE BUTTON MENU -->
 					  <div class="navbar-header">
@@ -120,11 +120,11 @@
                               Ananké Asseff, <strong><em>artista visual</em></strong><br>
                               Valeria Gonzalez, <strong><em>curadora</em></strong><br>
                               Marcela Heiss, <strong><em>fotógrafa, Banco Ciudad</em></strong><br>
-                              Ignacio Iasparra, <strong><em>artista visual</em></strong><br>
+                              Ignacio Iasparra, <strong><em>fotógrafo</em></strong><br>
                               Eduardo Longoni, <strong><em>fotógrafo</em></strong>                                                                                       </p>
                             <p><strong>11.</strong> Se  entregarán los siguientes premios:</p>
-                            <p>1º Premio: &ldquo;Gente de mi Ciudad&rdquo;.................................. $ 26.000.- <br>
-                              2º Premio: ……………………………………………….$ 10.000.-<br>
+                            <p>1º Premio: &ldquo;Gente de mi Ciudad&rdquo;  ................................$ 27.000.- <br>
+                              2º Premio:   .......................................................................$ 10.000.-<br>
                               3º Premio:  ...................................................................... $ 9.000.  -<br>
                               4º Premio:  ...................................................................... $ 8.000.-<br>
                         5º Premio: ......................................................................  $ 7.000.-</p>
@@ -148,12 +148,13 @@
                             <p><strong><u>23. CALENDARIO DEL CONCURSO</u></strong><strong> </strong></p>
                             <p><strong>Ingreso de las obras vía web: </strong>20 de abril  al 24 de mayo de 2015<strong></strong><br>
                               <strong>Preselección de las obras (1° Instancia): </strong>25 de mayo  al 7 de junio de 2015<strong></strong><br>
-                              <strong>Notificación de los resultados de las obras preseleccionadas  en</strong><strong> : </strong>miércoles 10 de junio de 2015 <br>
+                              <strong>Notificación de los resultados de las obras preseleccionadas  en www.gentedemiciudad.com</strong><strong> : </strong>miércoles 10 de junio de 2015 <br>
                               <strong>Entrega de fotos preseleccionadas (en papel y  soporte digital): </strong>15 de junio al 10 de julio de 2015<br>
                               <strong>Juzgamiento final de las obras preseleccionadas (2°  Instancia): </strong>jueves 16 de julio de 2015<br>
                               <strong>Votación Mención &ldquo;Gente de mi Ciudad&rdquo;:</strong> 20 al 31 de  julio de 2015<br>
                               <strong>Notificación de los Resultados Finales:   </strong>martes 4 de agosto de 2015<br>
-                              <strong>Exposición de las obras:</strong> desde el 02 de diciembre al 02  de febrero de 2016 inclusive <strong>Entrega de  premios:</strong> 05 de diciembre de 2015<br>
+                              <strong>Exposición de las obras:</strong> desde el 03 de diciembre al 31 de enero de 2016 inclusive <br>
+                              <strong>Entrega de  premios:</strong> 03 de diciembre de 2015<br>
                               <strong>Devolución de las obras no seleccionadas:</strong> del 2 al 31  de enero de 2016 inclusive.</p>
                             <p><strong>24. </strong>Las obras  preseleccionadas deberán ser entregadas personalmente o por terceros en  Sarmiento 611, piso 6º, Capital Federal, de lunes a viernes de 10 a 17 hs. en  las fechas indicadas en el calendario.</p>
                             <p><strong>25. </strong>Las obras preseleccionadas que  hayan sido presentadas en papel y que no resulten ganadoras, se podrán retirar  en Sarmiento 611, 6º piso de esta Capital, según cronograma, de lunes a viernes  en el horario de 10.00 a 17.00; en el caso de las obras que solo fueron  cargadas en vía web, luego de los plazo establecidos según cronograma se darán  de baja del servidor de carga. La entidad organizadora tratará con el máximo  cuidado las obras recibidas, declinando toda responsabilidad de cualquier extravío  o accidente fortuito que se pudiera producir. </p>

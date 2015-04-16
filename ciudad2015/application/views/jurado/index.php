@@ -65,7 +65,7 @@
 					<!-- MENU -->
 					<div class="menu_block clearfix">
 					  <!-- LOGO -->
-					  <div class="logo"> <a href="/home/" alt="">antarctic</a> </div>
+					  <div class="logo"> <a href="/home/" alt=""></a> </div>
 					  <!-- LOGO -->
 					  <!-- RESPONSIVE BUTTON MENU -->
 					  <div class="navbar-header">
@@ -120,10 +120,10 @@
 						<div class="col-lg-4 col-sm-6 col-xs-6 col-ss-12 padbot20 center crewman" data-animated="fadeIn">
                                                     <div class="crewman_foto"><img src="/assets/images/team4.jpg" alt="" /></div>
 							<h3>Ignacio Iasparra</h3>
-							<p><strong><em>Artista visual</em></strong></p>
+							<p><strong><em>Fotógrafo</em></strong></p>
 						</div>
 				      <div class="col-lg-4 col-sm-6 col-xs-6 col-ss-12 padbot20 center crewman" data-animated="fadeIn">
-                                          <div class="crewman_foto"><img src="/assets/images/team4.jpg" alt="" /></div>
+                                          <div class="crewman_foto"><img src="/assets/images/team5.jpg" alt="" /></div>
 					      <h3>Eduardo Longoni</h3>
 					      <p><strong><em>Fotógrafo</em></strong></p>
 				        <ul class="social">

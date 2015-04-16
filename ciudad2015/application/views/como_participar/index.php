@@ -1,175 +1,139 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>XV Concuso Gente de mi ciudad | Banco Ciudad</title>
-<link href="/assets/css/admin.css" rel="stylesheet" type="text/css">
-<script type="text/javascript">
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-</script>
+	
+	<meta charset="utf-8">
+	<title>XVI Concurso fotográfico | GENTE DE MI CIUDAD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<link rel="shortcut icon" href="images/favicon.ico">
+    
+	<!-- CSS STYLES -->
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/flexslider.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/animate.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/colors/" rel="stylesheet" type="text/css" id="colors" />
+    
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'>
+    
+	<!-- Scripts -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if IE]><html class="ie" lang="en"> <![endif]-->
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+        <script src="/assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="/assets/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+        <script src="/assets/js/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="/assets/js/jquery.twitter.js" type="text/javascript"></script>
+        <script src="/assets/js/superfish.min.js" type="text/javascript"></script>
+        <script src="/assets/js/jquery.flexslider-min.js" type="text/javascript"></script>
+        <script src="/assets/js/animate.js" type="text/javascript"></script>
+        <script src="/assets/js/myscript.js" type="text/javascript"></script>
+	
 </head>
+<body>
 
-<body onLoad="MM_preloadImages('/assets/imagenes/aprobadas2.jpg','/assets/imagenes/concurso2.png','/assets/imagenes/concursosanteriores2.png','/assets/imagenes/comoparticipar2.png','/assets/imagenes/eljurado2.png','/assets/imagenes/premios2.png','/assets/imagenes/registrate2.png','/assets/imagenes//ingresar2.png','/assets/imagenes/bases2.png')">
-<table width="950" border="0" align="center" cellpadding="0" cellspacing="0">
-  <tr>
-    <td><img src="/assets/imagenes/header.jpg" width="950" height="150"  alt=""/></td>
-  </tr>
-  <tr>
-    <td class="fondo2" ><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
-      <tr>
-        <td width="202"><a href="/index.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','/assets/imagenes/concurso2.png',1)"><img src="/assets/imagenes/concurso1.png" alt="" width="184" height="31" id="Image1"></a></td>
-        <td class="fondoblanco interiortabla2" width="701" rowspan="20"><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
-          <tr>
-            <td class="bienvenido"><strong>¿Cómo participar?</strong></td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td><ul>
-              <li><strong>El concurso está abierto a mayores de 18 años argentinos o residentes en el país.</strong><br>
-                <br>
-                </li>
-              <li><strong>Podés presentar hasta dos fotos tomadas exclusivamente dentro del ámbito de la Ciudad Autónoma de Buenos Aires.</strong><br>
-                <br>
-                </li>
-              <li><strong>Fechas de inscripción: 15 de mayo al 30 de junio</strong><br>
-                <br>
-                </li>
-              <li><strong> Para inscribirte, es importante que leas las bases y condiciones de participación y aceptar términos y condiciones.</strong><br>
-                <br>
-                </li>
-              <li><strong>Votación &ldquo;Gente de mi Ciudad&rdquo;: 20 al 31 de agosto</strong></li>
-              </ul>              </td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-          <tr>
-            <td>&nbsp;</td>
-            </tr>
-        </table></td>
-      </tr>
-      <tr>
-        <td><a href="/como-participar/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','/assets/imagenes/comoparticipar2.png',1)"><img src="/assets/imagenes/comoparticipar1.png" alt="" width="184" height="31" id="Image5" border="0"></a></td>
-        </tr>
-      <tr>
-        <td><a href="/fotos/votacion/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','/assets/imagenes/registrate2.png',1)"><img src="/assets/imagenes/registrate1.png" alt="" width="184" height="31" id="Image8" border="0"></a></td>
-        </tr>
-      <tr>
-        <td><a href="/usuarios/login/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','/assets/imagenes//ingresar2.png',1)"><img src="/assets/imagenes/ingresar1.png" alt="" width="184" height="31" id="Image9" border="0"></a></td>
-        </tr>
-      <tr>
-        <td><a href="/bases_y_condiciones/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','/assets/imagenes/bases2.png',1)"><img src="/assets/imagenes/bases1.png" alt="" width="184" height="31" id="Image10"></a></td>
-        </tr>
-      <tr>
-        <td><a href="/premios/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','/assets/imagenes/premios2.png',1)"><img src="/assets/imagenes/premios1.png" alt="" width="184" height="31" id="Image7" border="0"></a></td>
-        </tr>
-      <tr>
-        <td><a href="/jurado/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','/assets/imagenes/eljurado2.png',1)"><img src="/assets/imagenes/eljurado1.png" alt="" width="184" height="31" id="Image6" border="0"></a></td>
-        </tr>
-      <tr>
-        <td><a href="/ediciones_anteriores/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','/assets/imagenes/concursosanteriores2.png',1)"><img src="/assets/imagenes/concursosanteriores1.png" alt="" width="184" height="31" id="Image4" border="0"></a></td>
-        </tr>
-      <tr>
-        <td>&nbsp;</td>
-        </tr>
-      <tr>
-        <td>&nbsp;</td>
-        </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-        </tr>
-      <tr>
-        <td>&nbsp;</td>
-        </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-      </tr>
-    </table></td>
-  </tr>
-  <tr>
-    <td bgcolor="#34499E"><img src="/assets/imagenes/footer.jpg" width="950" height="60"  alt=""/></td>
-  </tr>
-</table>
+<!-- PRELOADER -->
+<img id="preloader" src="/assets/images/preloader.gif" alt="" />
+<!-- //PRELOADER -->
+	
+	<!-- PAGE -->
+	<div id="page">
+		
+		<!-- CONTAINER -->
+		<div class="container page_block">
+			
+			<!-- WRAPPER -->
+			<div class="wrapper">
+				
+				<!-- HEADER -->
+				<header>
+					
+										<!-- TOP LINE -->
+					<div class="top_line clearfix">
+						<div class="pull-right top_phone"><a href="/usuarios/login/">Ingresar</a> <span class="color_white"><a href="/usuarios/registrar/">Registrate</a></span></div>
+						
+						
+					</div><!-- //TOP LINE -->
+					
+					<!-- MENU -->
+					<div class="menu_block clearfix">
+					  <!-- LOGO -->
+					  <div class="logo"> <a href="/home/" alt=""></a> </div>
+					  <!-- LOGO -->
+					  <!-- RESPONSIVE BUTTON MENU -->
+					  <div class="navbar-header">
+					    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="glyphicon glyphicon-align-justify"></span> </button>
+				      </div>
+					  <!-- //RESPONSIVE BUTTON MENU -->
+					  <div class="navbar-collapse collapse">
+					    <ul class="nav navbar-nav right">
+					      <li ><a href="/home/" title="">Inicio</a></li>
+					      <li class="first active"><a href="/como-participar/" title="">Como participar?</a></li>
+					      <li ><a href="/bases-y-condiciones/" title="">Bases y condiciones</a></li>
+					      <li><a href="/jurado/" title="">Jurado</a></li>
+					      <li><a href="/premios/" title="">Premios</a></li>
+				        </ul>
+				      </div>
+				  </div>
+					<!-- //MENU -->
+				</header><!-- //HEADER -->
+				
+				<!-- BREADCRUMBS -->
+				<section class="full_width breadcrumbs_block clearfix">
+					<div class="breadcrumbs_content">
+						<h2 class="pull-left">Como participar?</h2>
+					</div>
+					<div class="overlay"></div>
+					<div class="overlay_black"></div>
+				</section><!-- //BREADCRUMBS -->
+				
+				<!-- Our Vision -->
+				<section class="our_vision">
+					<div class="row" data-animated="fadeIn">
+					  <div >
+					    <p><strong>Ingreso de las obras vía web</strong>: 20 de abril al 24 de mayo de 2015</p>
+					    <p><strong>Preselección de las obras (1° Instancia)</strong>: 25 de mayo al 7 de junio de 2015</p>
+					    <p><strong>Notificación de los resultados de las obras preseleccionadas en www.gentedemiciudad.com</strong><strong></strong> : miércoles 10 de junio de 2015 </p>
+					    <p><strong>Entrega de fotos preseleccionadas (en papel y soporte digital):</strong> 15 de junio al 10 de julio de 2015</p>
+					    <p><strong>Juzgamiento final de las obras preseleccionadas (2° Instancia):</strong> jueves 16 de julio de 2015</p>
+					    <p><strong>Votación Mención “Gente de mi Ciudad”:</strong> 20 al 31 de julio de 2015</p>
+					    <p><strong>Notificación de los Resultados Finales:</strong> martes 4 de agosto de 2015</p>
+					    <p><strong>Exposición de las obras:</strong> desde el 03 de diciembre al 31 de enero de 2016 inclusive </p>
+					    <p><strong>Entrega de premios:</strong> 03 de diciembre de 2015</p>
+					    <p><strong>Devolución de las obras no seleccionadas:</strong> del 2 al 31 de enero de 2016 inclusive.</p>
+                            <p class="h4">&nbsp;</p>
+					  </div>
+			    </div></section><!-- //Our Vision -->
+				
+				<!-- Our Mission --><!-- //Our Mission -->
+				
+				<!-- Our Team -->
+				<section class="padtop0 team_block"></section>
+				<!-- //Our Team -->
+
+				<!-- FOOTER -->
+			  <footer class="full_width footer_block">
+				  <!-- COPYRIGHT -->
+				  <!-- //COPYRIGHT -->
+				  <table width="100%" border="0">
+				    <tbody>
+				      <tr>
+                                          <td><img src="/assets/images/telefono.png" alt=""/></td>
+                                          <td><div align="right"><img src="/assets/images/redes.png" alt=""/></div></td>
+			          </tr>
+			        </tbody>
+			      </table>
+			  </footer>
+				<!-- //FOOTER -->
+			</div><!-- WRAPPER -->
+		</div><!-- //CONTAINER -->
+	</div><!-- //PAGE -->
 </body>
 </html>
