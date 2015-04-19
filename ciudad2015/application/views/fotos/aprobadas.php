@@ -32,12 +32,8 @@
         <script src="/assets/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="/assets/js/jquery.prettyPhoto.js" type="text/javascript"></script>
         <script src="/assets/js/jquery-ui.min.js" type="text/javascript"></script>
-        <script src="/assets/js/jquery.isotope.min.js" type="text/javascript"></script>
-        <script src="/assets/js/sorting.js" type="text/javascript"></script>
-        <script src="/assets/js/jquery.twitter.js" type="text/javascript"></script>
         <script src="/assets/js/superfish.min.js" type="text/javascript"></script>
         <script src="/assets/js/jquery.flexslider-min.js" type="text/javascript"></script>
-        <script src="/assets/js/animate.js" type="text/javascript"></script>
         <script src="/assets/js/myscript.js" type="text/javascript"></script>
 	
 </head>
@@ -111,8 +107,8 @@
                                                 <?php foreach($aprobadas as $aprobada) { ?>
                                                 <div class="element col-sm-3 category1 project padbot30">
                                                     <div class="hover_img">
-                                                        <img src="/upload/thumb/<?=$aprobada['foto']?>" alt="<?=$aprobada['nombre']?>">
-                                                        <a class="zoom" href="<?=$aprobada['foto']?>" rel="prettyPhoto[portfolio1]"></a>
+                                                        <img src="/upload/thumb/<?=$aprobada['foto']?>" alt="<?=$aprobada['nombre']?>" style="width: 350px; height: 260px;">
+                                                        <a class="zoom" href="/upload/<?=$aprobada['foto']?>" rel="prettyPhoto[portfolio1]"></a>
                                                     </div>
                                                     <div class="project_descr center">
                                                         <h4>

@@ -33,14 +33,12 @@
     <!--[if IE]><html class="ie" lang="en"> <![endif]-->
 	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-	<script src="/assets/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="/assets/js/jquery.prettyPhoto.js" type="text/javascript"></script>
-	<script src="/assets/js/jquery-ui.min.js" type="text/javascript"></script>
-	<script src="/assets/js/jquery.twitter.js" type="text/javascript"></script>
-	<script src="/assets/js/superfish.min.js" type="text/javascript"></script>
-	<script src="/assets/js/jquery.flexslider-min.js" type="text/javascript"></script>
-	<script src="/assets/js/animate.js" type="text/javascript"></script>
-	<script src="/assets/js/myscript.js" type="text/javascript"></script>
+        <script src="/assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="/assets/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+        <script src="/assets/js/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="/assets/js/superfish.min.js" type="text/javascript"></script>
+        <script src="/assets/js/jquery.flexslider-min.js" type="text/javascript"></script>
+        <script src="/assets/js/myscript.js" type="text/javascript"></script>
 	
 </head>
 <body>
@@ -275,7 +273,7 @@
 		          </span></td>
 		        <td>&nbsp;</td>
 		        <td><span >
-                                <input type="checkbox" name="bases">
+                                <input type="checkbox" name="bases" required>
 		          Acepto las bases y condiciones</span></td>
 	          </tr>
 		      <tr>

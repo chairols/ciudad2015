@@ -16,6 +16,7 @@
         <link href="/assets/css/flexslider.css" rel="stylesheet" type="text/css" />
         <link href="/assets/css/animate.css" rel="stylesheet" type="text/css" media="all" />
         <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/estilos.css" rel="stylesheet" type="text/css" />
         <link href="/assets/css/colors/" rel="stylesheet" type="text/css" id="colors" />
     
 	<!-- Fonts -->
@@ -30,20 +31,13 @@
         <script src="/assets/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="/assets/js/jquery.prettyPhoto.js" type="text/javascript"></script>
         <script src="/assets/js/jquery-ui.min.js" type="text/javascript"></script>
-        <script src="/assets/js/jquery.isotope.min.js" type="text/javascript"></script>
-        <script src="/assets/js/sorting.js" type="text/javascript"></script>
-        <script src="/assets/js/jquery.twitter.js" type="text/javascript"></script>
         <script src="/assets/js/superfish.min.js" type="text/javascript"></script>
         <script src="/assets/js/jquery.flexslider-min.js" type="text/javascript"></script>
-        <script src="/assets/js/animate.js" type="text/javascript"></script>
         <script src="/assets/js/myscript.js" type="text/javascript"></script>
 	
 </head>
 <body>
 
-<!-- PRELOADER -->
-<img id="preloader" src="/assets/images/preloader.gif" alt="" />
-<!-- //PRELOADER -->
 	
 	<!-- PAGE -->
 	<div id="page">
@@ -116,7 +110,7 @@
                                                             Puntaje otorgado: <?=$votada['puntaje']?>
                                                             <br>
                                                             <a href="/fotos/editar_puntaje/<?=$votada['foto']['idfoto']?>">
-                                                                <input class="botonaprobar" type="submit" name="submit" id="submit" value="Cambiar Voto">
+                                                                <input class="botonnoaprobar" type="submit" name="submit" id="submit" value="Cambiar Voto">
                                                             </a>
                                                             <br>
                                                         </h4>

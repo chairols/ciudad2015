@@ -31,10 +31,8 @@
         <script src="/assets/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="/assets/js/jquery.prettyPhoto.js" type="text/javascript"></script>
         <script src="/assets/js/jquery-ui.min.js" type="text/javascript"></script>
-        <script src="/assets/js/jquery.twitter.js" type="text/javascript"></script>
         <script src="/assets/js/superfish.min.js" type="text/javascript"></script>
         <script src="/assets/js/jquery.flexslider-min.js" type="text/javascript"></script>
-        <script src="/assets/js/animate.js" type="text/javascript"></script>
         <script src="/assets/js/myscript.js" type="text/javascript"></script>
 	
 </head>
@@ -118,6 +116,8 @@
                         </p>
                         </form>
                                           </div>
+                                            <?php } else { ?>
+                                            <p><strong>Usted cargó las 2 fotos existosamente. Para finalizar la inscripción haga click <a href="/usuarios/logout/" class="textoazul">aquí</a></strong></p>
                                             <?php } ?>
 			    </div>
                 <div class="row" data-animated="fadeIn">
@@ -202,12 +202,6 @@ if($exitoso == '1') { ?>
 <script type="text/javascript">
     $(document).ready(function() {
         alert("Su foto ha sido cargada exitosamente");
-    });
-</script>
-<?php } elseif($exitoso == '2') { ?>
-<script type="text/javascript">
-    $(document).ready(function() {
-        alert("Debe ingresar un nombre a la foto");
     });
 </script>
 <?php } ?>

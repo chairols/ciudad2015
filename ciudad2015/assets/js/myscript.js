@@ -8,8 +8,8 @@ window.jQuery = window.$ = jQuery;
 /*-----------------------------------------------------------------------------------*/
 jQuery(window).load(function () {
 	//Preloader
-	setTimeout("jQuery('#preloader').animate({'opacity' : '0'},300,function(){jQuery('#preloader').hide()})",800);
-	setTimeout("jQuery('.page_block').animate({'opacity' : '1'},500)",800);
+	setTimeout("jQuery('#preloader').animate({'opacity' : '0'},0,function(){jQuery('#preloader').hide()})",0);
+	setTimeout("jQuery('.page_block').animate({'opacity' : '1'},0)",0);
 
 });
 
